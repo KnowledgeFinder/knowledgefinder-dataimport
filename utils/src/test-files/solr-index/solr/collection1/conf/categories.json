@@ -1,0 +1,31 @@
+{
+    "categories": [
+        {
+            "id": "cat1",
+            "name": "category1",
+            "categories": [
+                {"id": "cat1a", "name": "a1"},
+                {"id": "cat1b", "name": "B1"},
+                {"id": "cat1c", "name": "c1"}
+            ]
+        },
+        {
+            "id": "cat2",
+            "name": "category2",
+            "categories": [
+                {"id": "cat2a", "name": "a2"},
+                {"id": "cat2b", "name": "b2"},
+                {"id": "cat2c", "name": "c2"}
+            ]
+        },
+        {
+            "id": "cat22",
+            "name": "c2",
+            "categories": [
+                {"id": "cat22a", "name": "c22"},
+                {"id": "cat22b", "name": "c23"},
+                {"id": "cat22c", "name": "c24"}
+            ]
+        }
+    ]
+}

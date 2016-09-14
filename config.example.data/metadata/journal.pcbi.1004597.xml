@@ -1,0 +1,46 @@
+<!--
+    Copyright 2016 DLR - German Aerospace Center
+   
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+   
+    http://www.apache.org/licenses/LICENSE-2.0
+   
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+ -->
+<documents>
+	<document>
+		<id>1004597</id>
+		<title>Distinctive Behaviors of Druggable Proteins in Cellular Networks</title>
+		<description>
+		The interaction environment of a protein in a cellular network is important in defining the role
+that the protein plays in the system as a whole, and thus its potential suitability as a drug target.
+Despite the importance of the network environment, it is neglected during target selection
+for drug discovery. Here, we present the first systematic, comprehensive computational
+analysis of topological, community and graphical network parameters of the human interactome
+and identify discriminatory network patterns that strongly distinguish drug targets from
+the interactome as a whole. Importantly, we identify striking differences in the network
+behavior of targets of cancer drugs versus targets from other therapeutic areas and explore
+how they may relate to successful drug combinations to overcome acquired resistance to
+cancer drugs. We develop, computationally validate and provide the first public domain predictive
+algorithm for identifying druggable neighborhoods based on network parameters.
+We also make available full predictions for 13,345 proteins to aid target selection for drug
+discovery. All target predictions are available through canSAR.icr.ac.uk. Underlying data
+and tools are available at https://cansar.icr.ac.uk/cansar/publications/druggable_network_
+neighbourhoods/.
+		</description>
+		<publishDate>December 23, 2015</publishDate>
+		<externalLink>http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004597</externalLink>
+		<publisher>PLOS</publisher>
+		<authors>Costas Mitsopoulos, Amanda C. Schierz, Paul Workman, Bissan Al-Lazikani</authors>
+		<categoriesText>drug discovery,drug interactions,protein interaction networks,drug therapy,protein interactions,forecasting,cancer drug discovery,protein structure prediction</categoriesText>
+		<keywordsText>networks, protein, drug, therapy, cancer</keywordsText>
+		<license>CC-BY 4.0 http://creativecommons.org/licenses/by/4.0/legalcode</license>
+			</document>
+
+</documents>

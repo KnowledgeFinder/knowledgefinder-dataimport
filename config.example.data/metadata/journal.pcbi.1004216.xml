@@ -1,0 +1,32 @@
+<!--
+    Copyright 2016 DLR - German Aerospace Center
+   
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+   
+    http://www.apache.org/licenses/LICENSE-2.0
+   
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+ -->
+<documents>
+	<document>
+		<id>1004216</id>
+		<title>Learning the Structure of Biomedical Relationships from Unstructured Text</title>
+		<description>
+		The published biomedical research literature encompasses most of our understanding of how drugs interact with gene products to produce physiological responses (phenotypes). Unfortunately, this information is distributed throughout the unstructured text of over 23 million articles. The creation of structured resources that catalog the relationships between drugs and genes would accelerate the translation of basic molecular knowledge into discoveries of genomic biomarkers for drug response and prediction of unexpected drug-drug interactions. Extracting these relationships from natural language sentences on such a large scale, however, requires text mining algorithms that can recognize when different-looking statements are expressing similar ideas. Here we describe a novel algorithm, Ensemble Biclustering for Classification (EBC), that learns the structure of biomedical relationships automatically from text, overcoming differences in word choice and sentence structure. We validate EBC's performance against manually-curated sets of (1) pharmacogenomic relationships from PharmGKB and (2) drug-target relationships from DrugBank, and use it to discover new drug-gene relationships for both knowledge bases. We then apply EBC to map the complete universe of drug-gene relationships based on their descriptions in Medline, revealing unexpected structure that challenges current notions about how these relationships are expressed in text. For instance, we learn that newer experimental findings are described in consistently different ways than established knowledge, and that seemingly pure classes of relationships can exhibit interesting chimeric structure. The EBC algorithm is flexible and adaptable to a wide range of problems in biomedical text mining.
+		</description>
+		<publishDate>July 28, 2015</publishDate>
+		<externalLink>http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004216</externalLink>
+		<publisher>PLOS</publisher>
+		<authors>Bethany Percha,Russ B. Altman</authors>
+		<categoriesText>drug discovery,drug interactions,drug metabolism,drug marketing,drug dependence,lexicons,parsers,graphs</categoriesText>
+		<keywordsText>dependency, parser, drug, discovery</keywordsText>
+		<license>CC-BY 4.0 http://creativecommons.org/licenses/by/4.0/legalcode</license>
+			</document>
+
+</documents>

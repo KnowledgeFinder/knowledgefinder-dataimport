@@ -1,0 +1,43 @@
+<!--
+    Copyright 2016 DLR - German Aerospace Center
+   
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+   
+    http://www.apache.org/licenses/LICENSE-2.0
+   
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+ -->
+<documents>
+	<document>
+		<id>1003763</id>
+		<title>Robustness and Evolvability of the Human Signaling Network</title>
+		<description>
+		Biological systems are known to be both robust and evolvable to internal and external perturbations, but what causes these
+apparently contradictory properties? We used Boolean network modeling and attractor landscape analysis to investigate
+the evolvability and robustness of the human signaling network. Our results show that the human signaling network can be
+divided into an evolvable core where perturbations change the attractor landscape in state space, and a robust neighbor
+where perturbations have no effect on the attractor landscape. Using chemical inhibition and overexpression of nodes, we
+validated that perturbations affect the evolvable core more strongly than the robust neighbor. We also found that the
+evolvable core has a distinct network structure, which is enriched in feedback loops, and features a higher degree of scalefreeness
+and longer path lengths connecting the nodes. In addition, the genes with high evolvability scores are associated
+with evolvability-related properties such as rapid evolvability, low species broadness, and immunity whereas the genes with
+high robustness scores are associated with robustness-related properties such as slow evolvability, high species broadness,
+and oncogenes. Intriguingly, US Food and Drug Administration-approved drug targets have high evolvability scores
+whereas experimental drug targets have high robustness scores.
+		</description>
+		<publishDate>July 31, 2014</publishDate>
+		<externalLink>http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003763</externalLink>
+		<publisher>PLOS</publisher>
+		<authors>Junil Kim, Drieke Vandamme, Jeong-Rae Kim, Amaya Garcia Munoz, Walter Kolch, Kwang-Hyun Cho</authors>
+		<categoriesText>signaling networks,drug discovery,evolutionary genetics,evolutionary immunology,immune system,oncogenes,genetic networks,network analysis</categoriesText>
+		<keywordsText>networks, genetic, human, signals, evolution</keywordsText>
+		<license>CC-BY 4.0 http://creativecommons.org/licenses/by/4.0/legalcode</license>
+			</document>
+
+</documents>

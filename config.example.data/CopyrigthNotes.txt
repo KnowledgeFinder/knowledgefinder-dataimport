@@ -1,0 +1,10 @@
+This file contains the attributions to all documents in the documents folder.
+When not stated explicit the documents are published under CC-BY 4.0. Full legal text at http://creativecommons.org/licenses/by/4.0/legalcode
+file journal.pcbi.1004597.pdf : "Distinctive Behaviors of Druggable Proteins in Cellular Networks" by Costas Mitsopoulos , Amanda C. Schierz , Paul Workman, Bissan Al-Lazikani found at http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004597
+file journal.pcbi.1004153.pdf : "Large-Scale Chemical Similarity Networks for Target Profiling of Compounds Identified in Cell-Based Chemical Screens"
+								by Yu-Chen Lo, Silvia Senese, Chien-Ming Li, Qiyang Hu, Yong Huang, Robert Damoiseaux, Jorge Z. Torres found at http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004153
+file journal.pcbi.1004216.pdf : "Learning the Structure of Biomedical Relationships from Unstructured Text" by Bethany Percha, Russ B. Altman found at http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004216
+file journal.pcbi.1004074.pdf : "Machine Learning Assisted Design of Highly Active Peptides for Drug Discovery"
+								by Sébastien Giguère, François Laviolette, Mario Marchand, Denise Tremblay, Sylvain Moineau, Xinxia Liang, Éric Biron, Jacques Corbeil found at http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004074
+file journal.pcbi.1003763.pdf : "Robustness and Evolvability of the Human Signaling Network" by Junil Kim, Drieke Vandamme, Jeong-Rae Kim, Amaya Garcia Munoz, Walter Kolch, Kwang-Hyun Cho
+								found at http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003763
