@@ -21,7 +21,7 @@
 		<groupId>de.dlr</groupId>
 		<artifactId>knowledgefinderII</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
-		<relativePath>../de.dlr.knowledgefinderII/pom.xml</relativePath>
+		<relativePath>../KnowledgeFinderCore/pom.xml</relativePath>
 	</parent>
 	<groupId>de.dlr.knowledgefinderII</groupId>
 	<artifactId>dataimport</artifactId>
@@ -29,8 +29,8 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>../de.dlr.knowledgefinderII.dataimport.utils</module>
-		<module>${knowledgefinderII.path.prefix}/de.dlr.knowledgefinderII.dataimport.config.${knowledgefinderII.instance.name}</module>
+		<module>utils</module>
+		<module>config.${knowledgefinderII.instance.name}</module>
 	</modules>
 
 	<build>
