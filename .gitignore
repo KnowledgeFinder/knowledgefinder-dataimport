@@ -1,0 +1,7 @@
+/.project
+*.jar
+config.example/example
+*.prefs
+*.marker
+utils/src/test-files/solr-index/solr
+*/target/*
