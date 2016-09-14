@@ -28,7 +28,7 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>../config</module>
+		<module>../dataimport.config</module>
 	</modules>
 
 	<build>
