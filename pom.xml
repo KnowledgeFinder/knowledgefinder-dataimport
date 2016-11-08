@@ -21,7 +21,7 @@
 		<groupId>de.dlr</groupId>
 		<artifactId>knowledgefinderII</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
-		<relativePath>../KnowledgeFinderCore/pom.xml</relativePath>
+		<relativePath>../knowledgefinder-core/pom.xml</relativePath>
 	</parent>
 	<groupId>de.dlr.knowledgefinderII</groupId>
 	<artifactId>dataimport</artifactId>
