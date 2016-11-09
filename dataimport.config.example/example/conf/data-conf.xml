@@ -43,12 +43,12 @@
 		<!-- the order of the transformer is the order in which they are executed. 
 			The order of the fields are not important -->
 		<entity name="file" processor="FileListEntityProcessor"
-			baseDir="D:\Projekte\KFmultiProjekt\KnowledgeFinderDataimport\config.example.data\metadata"
+			baseDir="/path/to/your/workspace/knowledgefinder-dataimport/config.example.data/metadata"
 			fileName=".*xml" rootEntity="false" datasource="null"
 			transformer="de.dlr.knowledgefinderII.dataimport.utils.transformer.FilePathTransformer">
 
 			<field column="filePath"
-				filePrefix="D:\Projekte\KFmultiProjekt\KnowledgeFinderDataimport\config.example.data\documents"
+				filePrefix="/path/to/your/workspace/knowledgefinder-dataimport/config.example.data/documents"
 				fileSuffix=".pdf" oldFileSuffix=".xml" srcColName="file"/>
 
 			<!-- import file content -->
