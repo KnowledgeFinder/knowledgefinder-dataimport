@@ -30,7 +30,7 @@
 
 	<modules>
 		<module>dataimport.utils</module>
-		<module>${knowledgefinderII.path.prefix}instance-${knowledgefinderII.instance.name}/dataimport-config</module>
+		<module>${knowledgefinderII.path.prefix}knowledgefinder-config-${knowledgefinderII.instance.name}/dataimport-config</module>
 	</modules>
 
 	<build>
