@@ -8,8 +8,7 @@ The KnowledgeFinder dataimporter is an extension of the solr dataimporter. It pr
 ## Related projects
 
 * [KnowledgeFinder Core](https://github.com/KnowledgeFinder/knowledgefinder-core)
-* [KnowledgeFinder Webservice](https://github.com/KnowledgeFinder/knowledgefinder-webservice)
-* [KnowledgeFinder Theme](https://github.com/KnowledgeFinder/knowledgefinder-theme)
+* [KnowledgeFinder Webapp](https://github.com/KnowledgeFinder/knowledgefinder-webapp)
 
 ## Documentation
 
