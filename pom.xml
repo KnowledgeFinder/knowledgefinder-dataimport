@@ -29,7 +29,7 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>dataimport.utils</module>
+		<module>utils</module>
 		<module>${knowledgefinderII.path.prefix}knowledgefinder-config-${knowledgefinderII.instance.name}/dataimport-config</module>
 	</modules>
 
