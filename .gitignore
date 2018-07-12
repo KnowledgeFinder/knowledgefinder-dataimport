@@ -1,11 +1,4 @@
-/.project
-*.jar
-*.prefs
-*.marker
-*/target/
-utils/src/test-files/solr-index/solr
-dataimport.config.example/example/conf/default_conf
-dataimport.config.example/example/lib
-dataimport.config.example/example/data
-dataimport.config.example/example/conf/_rest_managed.json
-dataimport.config.example/example/conf/dataimport.properties
+utils/target/
+utils/src/test-files/solr-index/de.dlr.knowledgefinder.*
+.project
+.settings
