@@ -1,0 +1,16 @@
+External libraries
+------------------
+
+This software uses the following licenses for external libraries:
+
+Title: Apache License
+Version: 2.0
+URL: http://www.apache.org/licenses/LICENSE-2.0
+Used-by: Apache solr. project home is at http://lucene.apache.org/
+Comments: -
+
+Title: CC-BY-SA
+Version: 3.0
+URL: https://stackexchange.com/legal
+Used-by: some bugfixes and features are taken from stackoverflow(https://stackoverflow.com/)
+Comments: -
