@@ -17,25 +17,43 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>de.dlr</groupId>
-		<artifactId>knowledgefinderII</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
-		<relativePath>../knowledgefinder-core/pom.xml</relativePath>
-	</parent>
-	<groupId>de.dlr.knowledgefinderII</groupId>
+	<groupId>de.dlr.knowledgefinder</groupId>
 	<artifactId>dataimport</artifactId>
-	<name>KnowledgeFinderII Dataimport</name>
+	<version>2.0.0</version>
+	<name>KnowledgeFinder Dataimport</name>
 	<packaging>pom</packaging>
+	
+	<properties>
+		<!-- knowledgefinder settings -->
+		<knowledgefinder.instance.name>example</knowledgefinder.instance.name>
+		
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		
+		<solr.version>7.2.0</solr.version>
+		<lucene.version>7.2.0</lucene.version>
+	</properties>
 
 	<modules>
 		<module>utils</module>
-		<module>${knowledgefinderII.path.prefix}knowledgefinder-config-${knowledgefinderII.instance.name}/dataimport-config</module>
+		<module>../knowledgefinder-config-${knowledgefinder.instance.name}/solr-config</module>
 	</modules>
 
 	<build>
 		<pluginManagement>
 			<plugins>
+				<plugin>
+					<artifactId>maven-dependency-plugin</artifactId>
+					<version>2.7</version>
+					<executions>
+						<execution>
+							<id>copy-dependencies</id>
+							<phase>package</phase>
+							<goals>
+								<goal>copy-dependencies</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
 				<plugin>
 					<artifactId>maven-assembly-plugin</artifactId>
 					<version>2.4</version>
@@ -55,53 +73,19 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+	
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>cobertura-maven-plugin</artifactId>
+				<version>2.7</version>
+			</plugin>
+		</plugins>
+	</reporting>
 
 	<dependencyManagement>
-		<dependencies>
-
-			<!-- Test -->
-			<dependency>
-				<groupId>junit</groupId>
-				<artifactId>junit</artifactId>
-				<version>4.11</version>
-				<scope>test</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.easymock</groupId>
-				<artifactId>easymock</artifactId>
-				<version>3.2</version>
-				<scope>test</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.apache.lucene</groupId>
-				<artifactId>lucene-test-framework</artifactId>
-				<version>${lucene.version}</version>
-				<scope>test</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.apache.solr</groupId>
-				<artifactId>solr-test-framework</artifactId>
-				<version>${solr.version}</version>
-				<scope>test</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.powermock</groupId>
-				<artifactId>powermock-module-junit4</artifactId>
-				<version>${powermock.version}</version>
-				<scope>test</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.powermock</groupId>
-				<version>${powermock.version}</version>
-				<artifactId>powermock-api-easymock</artifactId>
-				<scope>test</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.powermock</groupId>
-				<artifactId>powermock-api-mockito</artifactId>
-				<version>${powermock.version}</version>
-				<scope>test</scope>
-			</dependency>
+		<dependencies>	
 
 			<!-- jackson JSON -->
 			<dependency>
@@ -114,54 +98,6 @@
 				<artifactId>jackson-core-asl</artifactId>
 				<version>1.9.13</version>
 			</dependency>
-			<dependency>
-				<groupId>com.github.slugify</groupId>
-				<artifactId>slugify</artifactId>
-				<version>2.1.2</version>
-			</dependency>
-
-			<!-- Logging -->
-			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>slf4j-api</artifactId>
-				<version>${org.slf4j-version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>jcl-over-slf4j</artifactId>
-				<version>${org.slf4j-version}</version>
-				<scope>runtime</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>slf4j-log4j12</artifactId>
-				<version>${org.slf4j-version}</version>
-				<scope>runtime</scope>
-			</dependency>
-			<dependency>
-				<groupId>log4j</groupId>
-				<artifactId>log4j</artifactId>
-				<version>1.2.17</version>
-				<exclusions>
-					<exclusion>
-						<groupId>javax.mail</groupId>
-						<artifactId>mail</artifactId>
-					</exclusion>
-					<exclusion>
-						<groupId>javax.jms</groupId>
-						<artifactId>jms</artifactId>
-					</exclusion>
-					<exclusion>
-						<groupId>com.sun.jdmk</groupId>
-						<artifactId>jmxtools</artifactId>
-					</exclusion>
-					<exclusion>
-						<groupId>com.sun.jmx</groupId>
-						<artifactId>jmxri</artifactId>
-					</exclusion>
-				</exclusions>
-				<scope>runtime</scope>
-			</dependency>
 
 			<!-- SVNKit -->
 			<dependency>
@@ -173,11 +109,6 @@
 				<groupId>org.tmatesoft.svnkit</groupId>
 				<artifactId>svnkit-cli</artifactId>
 				<version>1.8.3-1</version>
-			</dependency>
-			<dependency>
-				<groupId>org.antlr</groupId>
-				<artifactId>antlr-runtime</artifactId>
-				<version>3.5.2</version>
 			</dependency>
 
 			<!-- Lucene -->
