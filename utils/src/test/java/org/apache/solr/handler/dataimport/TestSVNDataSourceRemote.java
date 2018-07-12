@@ -39,10 +39,10 @@ import org.tmatesoft.svn.core.SVNErrorMessage;
 import org.tmatesoft.svn.core.SVNException;
 import org.tmatesoft.svn.core.SVNURL;
 
-import de.dlr.knowledgefinderII.dataimport.utils.datapicker.SVNDataPicker;
-import de.dlr.knowledgefinderII.dataimport.utils.datapicker.SVNDataPickerException;
-import de.dlr.knowledgefinderII.dataimport.utils.datapicker.SVNDataPickerFactory;
-import de.dlr.knowledgefinderII.dataimport.utils.parser.SVNParserMapFactory;
+import de.dlr.knowledgefinder.dataimport.utils.datapicker.SVNDataPicker;
+import de.dlr.knowledgefinder.dataimport.utils.datapicker.SVNDataPickerException;
+import de.dlr.knowledgefinder.dataimport.utils.datapicker.SVNDataPickerFactory;
+import de.dlr.knowledgefinder.dataimport.utils.parser.SVNParserMapFactory;
 
 /**
  * The Class TestSVNDataSourceRemote.
